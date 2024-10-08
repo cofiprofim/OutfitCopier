@@ -18,7 +18,7 @@ except ModuleNotFoundError:
 
     if install:
         print("Installing modules now...")
-        os.system("pip install aiohttp rgbprint discord.py aioconsole")
+        os.system("pip install aiohttp rgbprint")
         print("Successfully installed required modules.")
     else:
         print("Aborting installing modules.")
